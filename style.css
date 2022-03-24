@@ -1,0 +1,103 @@
+/* font-family: 'Cardo', serif;
+
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  /* border: 1px solid blue; */
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0%;
+}
+.header_img img {
+  width: 100%;
+}
+/* nav, */
+articles,
+.main,
+.article {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+nav {
+  height: 4rem;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(250, 248, 248);
+  margin: 0%;
+  border-bottom: 1px lightgray solid;
+}
+nav li {
+  margin: 0 40px;
+}
+nav li:hover {
+  font-weight: bolder;
+}
+nav img {
+  margin: 0 10px;
+}
+.logo_nav {
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  transform: translateY(-50%);
+}
+.main img {
+  margin: 0;
+}
+.categorie {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.categorie ul {
+  padding: 0%;
+}
+.categorie h2 {
+  font-size: 30px;
+}
+.categorie li {
+  margin-bottom: 1rem;
+}
+.categorie li:hover {
+  background-color: rgb(232, 225, 225);
+  font-weight: bolder;
+}
+aside {
+  width: 20%;
+  background-color: rgb(240, 233, 233);
+}
+.article {
+  padding: 20px 0;
+}
+.article_txt {
+  width: 620px;
+  padding-left: 15px;
+}
+.article_txt h2 {
+  font-family: "Cardo", serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.article_txt h3 {
+  margin-top: 0%;
+  font-weight: 100;
+  font-size: 17px;
+  color: gray;
+}
+.article p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.articles {
+  width: 80%;
+}
